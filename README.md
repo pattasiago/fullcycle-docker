@@ -1,4 +1,4 @@
 # Desafios Docker FullCycle:
 
 - GO
-- NodeJS
+- nginx com Node.js
