@@ -1,4 +1,6 @@
-# Desafio Docker GO - FullCycle
+# Desafio Docker GO
+
+Desafio: Construir imagem GO com menos de 2MB
 
 Para fazer build na imagem, rodar comando abaixo nesta pasta:
 
