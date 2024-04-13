@@ -35,6 +35,7 @@ services:
   
   nginx:
     image: nginx:latest
+    container_name: reverse_proxy
     ports:
       - "8080:80"
     volumes:
