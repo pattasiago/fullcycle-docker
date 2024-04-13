@@ -13,3 +13,5 @@ Para executar:
 Para executar direto baixando a imagem pelo DockerHub, executar:
 
     docker run iagopattas/fullcycle
+
+image: https://hub.docker.com/repository/docker/iagopattas/fullcycle/general
