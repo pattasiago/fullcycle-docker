@@ -27,7 +27,7 @@ export default async function insertPerson() {
   const insertSql = `INSERT INTO people(name) VALUES ('${(faker.name.firstName())}')`;
   const selectSql = "SELECT name FROM people ORDER BY id ASC";
   const result = await executeQuery(insertSql, selectSql);
-  const html = `<h1>Users Name</h1>\n
+  const html = `<h1>Full Cycle Rocks!</h1>\n
   <ul>
   ${result.map((person) => {
       return `<li>${person.name}</li>`;
